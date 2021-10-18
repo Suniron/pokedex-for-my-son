@@ -40,7 +40,7 @@ const Pokedex = () => {
   }, []);
 
   return (
-    <div style={{ width: "1000px", display: "flex", flexFlow: "wrap" }}>
+    <div style={{ width: "100%", display: "flex", flexFlow: "wrap" }}>
       {pokemons.map((pokemon) => (
         <Pokemon key={pokemon.name} name={pokemon.name} url={pokemon.url} />
       ))}
