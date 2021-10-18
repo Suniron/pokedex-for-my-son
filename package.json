@@ -1,7 +1,13 @@
 {
-  "name": "my-app",
+  "name": "pokedex-for-my-son",
   "version": "0.1.0",
   "private": true,
+  "author": "Etienne BLANC",
+  "keywords": [
+    "pokemon",
+    "react",
+    "son"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
